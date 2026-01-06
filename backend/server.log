@@ -1,0 +1,28 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1765372470.852790 3102859 gl_context.cc:357] GL version: 2.1 (2.1 Metal - 90.5), renderer: Apple M1
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+W0000 00:00:1765372470.892523 3103147 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1765372470.912022 3103144 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+INFO:     Started server process [89981]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+⚠ Warning: Model not found at trained_model.pkl
+  Please train a model first using: python train_model.py --train
+INFO:     127.0.0.1:63220 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63222 - "GET /gestures HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63930 - "GET /gestures HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64857 - "GET /gestures HTTP/1.1" 200 OK
+INFO:     127.0.0.1:65106 - "POST /predict HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:50948 - "GET /gestures HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51176 - "POST /predict HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:51345 - "POST /predict HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:51441 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52508 - "GET /gestures HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52627 - "POST /predict HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:54194 - "GET /gestures HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54347 - "POST /predict HTTP/1.1" 503 Service Unavailable
+INFO:     127.0.0.1:55714 - "GET /gestures HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55731 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58368 - "GET /gestures HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58432 - "GET /health HTTP/1.1" 200 OK
