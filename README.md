@@ -282,5 +282,5 @@ Contributions welcome! Areas for improvement:
 
 ---
 
-**Built with ❤️ for accessibility and education**
+**Built for accessibility and education**
 
